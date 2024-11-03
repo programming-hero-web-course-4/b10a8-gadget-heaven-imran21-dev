@@ -1,0 +1,1068 @@
+[
+  {
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/wm/2023/10/iphone-15-pro-max-1.JPG",
+    "product_id": "A001",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LIDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://images.samsung.com/bd/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg",
+    "product_id": "S001",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "price": 1199,
+    "description": "The ultimate Galaxy experience with the Samsung Galaxy S23 Ultra.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2 processor",
+      "Quad-camera system (200MP Main, 10MP Telephoto, 12MP Ultrawide, 10MP Periscope)",
+      "S Pen support",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://www.dpreview.com/files/p/articles/3382512956/both_back.jpeg",
+    "product_id": "G001",
+    "category": "Smartphones",
+    "brand": "Google",
+    "price": 999,
+    "description": "Pure Google experience with the Pixel 8 Pro, featuring advanced AI capabilities.",
+    "specification": [
+      "6.7-inch LTPO OLED display",
+      "Google Tensor G3 chip",
+      "Triple-camera system (50MP Main, 48MP Telephoto, 12MP Ultrawide)",
+      "Magic Eraser and Photo Unblur",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "OnePlus 11",
+    "product_image": "https://www.oneplus.com/content/dam/oasis/page/2023/global/home/salami-share.jpg",
+    "product_id": "O001",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "price": 799,
+    "description": "Flagship performance with the OnePlus 11, optimized for fast, smooth use.",
+    "specification": [
+      "6.7-inch Fluid AMOLED display",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple-camera system (50MP Main, 32MP Telephoto, 48MP Ultrawide)",
+      "100W SuperVOOC fast charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Apple iPhone SE (3rd generation)",
+    "product_image": "https://terabyteelectronics.co.uk/cdn/shop/files/Starlight.jpg?v=1717156557&width=1920",
+    "product_id": "A002",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "price": 429,
+    "description": "Compact power with the iPhone SE (3rd generation) in a classic design.",
+    "specification": [
+      "4.7-inch Retina HD display",
+      "A15 Bionic chip",
+      "Single-camera system (12MP Main)",
+      "Up to 256GB storage"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_title": "Samsung Galaxy Z Fold5",
+    "product_image": "https://images.samsung.com/bd/smartphones/galaxy-z-fold5/images/galaxy-z-fold5-highlights-spen-mo.jpg?imbypass=true",
+    "product_id": "S002",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "price": 1799,
+    "description": "Samsung Galaxy Z Fold5 offers a foldable experience for productivity and entertainment.",
+    "specification": [
+      "7.6-inch QXGA+ Dynamic AMOLED 2X display (unfolded)",
+      "Snapdragon 8 Gen 2 processor",
+      "Triple-camera system (50MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "5G capable",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Google Pixel 7a",
+    "product_image": "https://m-cdn.phonearena.com/images/reviews/250120-image/BK6A7924.jpg?w=1",
+    "product_id": "G002",
+    "category": "Smartphones",
+    "brand": "Google",
+    "price": 499,
+    "description": "Affordable, feature-packed Pixel 7a with advanced camera features.",
+    "specification": [
+      "6.1-inch OLED display",
+      "Google Tensor G2 chip",
+      "Dual-camera system (64MP Main, 13MP Ultrawide)",
+      "5G capable",
+      "Up to 128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "OnePlus Nord N200 5G",
+    "product_image": "https://www.gizmochina.com/wp-content/uploads/2021/06/ONePlus-Nord-N200-render.jpg",
+    "product_id": "O002",
+    "category": "Smartphones",
+    "brand": "OnePlus",
+    "price": 239,
+    "description": "Affordable 5G phone with great features for everyday use.",
+    "specification": [
+      "6.49-inch FHD+ display",
+      "Snapdragon 480 5G",
+      "Triple-camera system (13MP Main, 2MP Macro, 2MP Depth)",
+      "5,000mAh battery",
+      "64GB storage"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Xiaomi_13_1.jpg",
+    "product_id": "X001",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "price": 899,
+    "description": "High-end flagship with impressive specs from Xiaomi.",
+    "specification": [
+      "6.73-inch LTPO AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (50MP Main, 50MP Telephoto, 50MP Ultrawide)",
+      "120W wired and 50W wireless charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://www.chargerlab.com/wp-content/uploads/2023/05/2023053102131966.png",
+    "product_id": "Y001",
+    "category": "Smartphones",
+    "brand": "Sony",
+    "price": 1299,
+    "description": "Sony’s flagship with professional-grade photography and videography capabilities.",
+    "specification": [
+      "6.5-inch 4K OLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "Advanced Pro camera software",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Motorola Edge 40 Pro",
+    "product_image": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/motorola-edge-40-pro-pdp-design-gallery-2-d-.webp",
+    "product_id": "M001",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "price": 899,
+    "description": "Motorola's flagship with fast performance and 144Hz display.",
+    "specification": [
+      "6.67-inch FHD+ pOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (50MP Main, 50MP Ultrawide, 12MP Telephoto)",
+      "125W TurboPower charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Nokia XR21",
+    "product_image": "https://images.ctfassets.net/wcfotm6rrl7u/19IahdCIy2gbngkqoWPfN6/e5575792547477db67d7ffb1b058cafd/nokia_XR21-og_image.jpg",
+    "product_id": "N001",
+    "category": "Smartphones",
+    "brand": "Nokia",
+    "price": 499,
+    "description": "Rugged and durable, the Nokia XR21 is built to withstand tough environments.",
+    "specification": [
+      "6.49-inch FHD+ display",
+      "Snapdragon 695",
+      "Dual-camera system (64MP Main, 8MP Ultrawide)",
+      "Water and dust resistance (IP68)",
+      "Up to 128GB storage"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_title": "Vivo X90 Pro",
+    "product_image": "https://fdn.gsmarena.com/imgroot/news/22/11/vivo-x90-x90pro-ofic/inline/-1200/gsmarena_001.jpg",
+    "product_id": "V001",
+    "category": "Smartphones",
+    "brand": "Vivo",
+    "price": 899,
+    "description": "High-performance phone with Zeiss optics and powerful MediaTek chip.",
+    "specification": [
+      "6.78-inch AMOLED display",
+      "MediaTek Dimensity 9200",
+      "Triple-camera system (50MP Main, 50MP Portrait, 12MP Ultrawide)",
+      "120W fast charging",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Oppo Find X6 Pro",
+    "product_image": "https://www.stuff.tv/wp-content/uploads/sites/2/2023/03/Oppo-Find-X6-Pro-lead.jpg",
+    "product_id": "OP001",
+    "category": "Smartphones",
+    "brand": "Oppo",
+    "price": 1099,
+    "description": "Flagship Oppo model with stunning design and camera technology.",
+    "specification": [
+      "6.82-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (50MP Main, 50MP Telephoto, 50MP Ultrawide)",
+      "100W SuperVOOC charging",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Realme GT 3",
+    "product_image": "https://www.gizmochina.com/wp-content/uploads/2023/06/realme-GT3-1024x694.webp",
+    "product_id": "R001",
+    "category": "Smartphones",
+    "brand": "Realme",
+    "price": 699,
+    "description": "Affordable performance with a gaming focus and fast charging.",
+    "specification": [
+      "6.74-inch AMOLED display",
+      "Snapdragon 8+ Gen 1",
+      "Triple-camera system (50MP Main, 8MP Ultrawide, 2MP Macro)",
+      "150W fast charging",
+      "Up to 256GB storage"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_title": "Apple MacBook Pro 16\" (M2 Max)",
+    "product_image": "https://www.zdnet.com/a/img/2023/03/30/e9341dbc-4178-4896-a55e-0c986c6411d5/macbook-pro-16-display.jpg",
+    "product_id": "L001",
+    "category": "Laptops",
+    "brand": "Apple",
+    "price": 3499,
+    "description": "High-performance laptop with M2 Max chip, ideal for power users and creatives.",
+    "specification": [
+      "16.2-inch Liquid Retina XDR display",
+      "Apple M2 Max chip",
+      "32GB unified memory",
+      "1TB SSD storage",
+      "Up to 21 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_title": "Dell XPS 15",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/V8rrieMuHSrvVeivpxvaac-1200-80.jpg",
+    "product_id": "L002",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 1999,
+    "description": "Dell’s flagship XPS 15 with a beautiful 4K display and powerful Intel processor.",
+    "specification": [
+      "15.6-inch 4K OLED display",
+      "Intel Core i7-13700H",
+      "16GB DDR5 RAM",
+      "512GB SSD storage",
+      "NVIDIA GeForce RTX 4050"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "HP Spectre x360 14",
+    "product_image": "https://img-cdn.tnwcdn.com/image?fit=1200%2C675&height=675&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F08%2FHP-Spectre-x360-14-1-of-7.jpg&signature=be2373b43e1088c3457ffd4f53fd987a",
+    "product_id": "L003",
+    "category": "Laptops",
+    "brand": "HP",
+    "price": 1499,
+    "description": "Versatile 2-in-1 laptop with stunning design and touch-enabled display.",
+    "specification": [
+      "13.5-inch 3K2K OLED display",
+      "Intel Core i7-1255U",
+      "16GB LPDDR4x RAM",
+      "1TB SSD storage",
+      "360-degree hinge design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "product_image": "https://mcsolution.com.bd/wp-content/uploads/2024/01/Lenovo-ThinkPad-X1-Carbon-Gen11-O1WW-11P-price-in-Bangladesh-MC-Solution-BD-1200x675.webp",
+    "product_id": "L004",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "price": 1799,
+    "description": "Ultra-portable and durable business laptop with top-tier security features.",
+    "specification": [
+      "14-inch FHD+ display",
+      "Intel Core i7-1355U",
+      "16GB LPDDR5 RAM",
+      "512GB SSD storage",
+      "Lightweight carbon fiber build"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://assetsio.gnwcdn.com/asus-rog-zephyrus-g14-2022-(1).jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+    "product_id": "L005",
+    "category": "Laptops",
+    "brand": "ASUS",
+    "price": 1599,
+    "description": "Compact and powerful gaming laptop with an immersive display.",
+    "specification": [
+      "14-inch QHD 120Hz display",
+      "AMD Ryzen 9 6900HS",
+      "16GB DDR5 RAM",
+      "1TB SSD storage",
+      "NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Microsoft Surface Laptop Studio",
+    "product_image": "https://media.cnn.com/api/v1/images/stellar/prod/211007171916-underscored-surface-laptop-studio-lead-1.jpg?q=w_3014,h_1696,x_0,y_0,c_fill",
+    "product_id": "L006",
+    "category": "Laptops",
+    "brand": "Microsoft",
+    "price": 2499,
+    "description": "Innovative 2-in-1 laptop with flexible modes for creators and multitaskers.",
+    "specification": [
+      "14.4-inch PixelSense Flow display",
+      "Intel Core i7-11370H",
+      "32GB LPDDR4x RAM",
+      "1TB SSD storage",
+      "NVIDIA GeForce RTX 3050 Ti"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Acer Swift 3",
+    "product_image": "https://i.rtings.com/assets/products/ybCEUu1I/acer-swift-3-14-2020/design-medium.jpg?format=auto",
+    "product_id": "L007",
+    "category": "Laptops",
+    "brand": "Acer",
+    "price": 699,
+    "description": "Lightweight and budget-friendly laptop with great battery life.",
+    "specification": [
+      "14-inch FHD display",
+      "AMD Ryzen 7 5700U",
+      "8GB LPDDR4 RAM",
+      "512GB SSD storage",
+      "Up to 12 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_title": "Razer Blade 15",
+    "product_image": "https://www.dpreview.com/files/p/articles/6096287211/DLCS1672-Edit.jpeg",
+    "product_id": "L008",
+    "category": "Laptops",
+    "brand": "Razer",
+    "price": 2499,
+    "description": "High-performance gaming laptop with sleek design and powerful GPU.",
+    "specification": [
+      "15.6-inch QHD 240Hz display",
+      "Intel Core i9-12900H",
+      "32GB DDR5 RAM",
+      "1TB SSD storage",
+      "NVIDIA GeForce RTX 3080 Ti"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Apple MacBook Air 13\" (M2)",
+    "product_image": "https://www.cnet.com/a/img/resize/aba646bbfefdaae2a6aed6d516512f33e3b3a0c9/hub/2022/07/12/995173ef-de01-45be-a714-c5d581f4bd5c/macbook-air-m2-2022-2.jpg?auto=webp&width=1200",
+    "product_id": "L009",
+    "category": "Laptops",
+    "brand": "Apple",
+    "price": 1199,
+    "description": "Ultra-slim, fanless design with the power-efficient M2 chip.",
+    "specification": [
+      "13.6-inch Liquid Retina display",
+      "Apple M2 chip",
+      "8GB unified memory",
+      "256GB SSD storage",
+      "Up to 18 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Samsung Galaxy Book3 Pro",
+    "product_image": "https://img.us.news.samsung.com/us/wp-content/uploads/2023/02/01130423/Galaxy-Book3-Pro-16_Image_03_HI-scaled.jpg",
+    "product_id": "L010",
+    "category": "Laptops",
+    "brand": "Samsung",
+    "price": 1399,
+    "description": "Thin and light laptop with powerful performance and vivid AMOLED display.",
+    "specification": [
+      "14-inch 3K AMOLED display",
+      "Intel Core i7-1360P",
+      "16GB LPDDR5 RAM",
+      "512GB SSD storage",
+      "S Pen support"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "LG Gram 17",
+    "product_image": "https://reviewed-com-res.cloudinary.com/image/fetch/s--O5pSFU77--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1679416442474/lg-gram-pro-17-6.jpg",
+    "product_id": "L011",
+    "category": "Laptops",
+    "brand": "LG",
+    "price": 1899,
+    "description": "Ultra-light 17-inch laptop with extended battery life for productivity.",
+    "specification": [
+      "17-inch WQXGA display",
+      "Intel Core i7-1260P",
+      "16GB LPDDR5 RAM",
+      "1TB SSD storage",
+      "Up to 20 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Huawei MateBook X Pro",
+    "product_image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-x-pro-ultra-premium-edition/images/device/huawei-matebook-x-pro-super-charge.jpg",
+    "product_id": "L012",
+    "category": "Laptops",
+    "brand": "Huawei",
+    "price": 1599,
+    "description": "Premium ultrabook with stunning display and excellent build quality.",
+    "specification": [
+      "14.2-inch 3K touchscreen",
+      "Intel Core i7-1195G7",
+      "16GB LPDDR4x RAM",
+      "1TB SSD storage",
+      "Lightweight and portable"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "ASUS ZenBook Duo 14",
+    "product_image": "https://i3.ytimg.com/vi/ns82oTnhFY0/maxresdefault.jpg",
+    "product_id": "L013",
+    "category": "Laptops",
+    "brand": "ASUS",
+    "price": 1499,
+    "description": "Innovative dual-screen laptop for multitasking and creativity.",
+    "specification": [
+      "14-inch FHD display + 12.6-inch ScreenPad Plus",
+      "Intel Core i7-1260P",
+      "16GB LPDDR5 RAM",
+      "512GB SSD storage",
+      "Ergonomic design"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_title": "MSI Prestige 14 Evo",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/MSI-Prestige-14Evo-1.jpg",
+    "product_id": "L014",
+    "category": "Laptops",
+    "brand": "MSI",
+    "price": 1199,
+    "description": "Stylish and compact ultrabook with excellent performance and battery life.",
+    "specification": [
+      "14-inch FHD display",
+      "Intel Core i7-1280P",
+      "16GB LPDDR4x RAM",
+      "512GB SSD storage",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_title": "Google Pixelbook Go",
+    "product_image": "https://www.jeffhilimire.com/wp-content/uploads/2020/04/1_oHjWfVAt3Lls5VcCkPSFQw.jpeg",
+    "product_id": "L015",
+    "category": "Laptops",
+    "brand": "Google",
+    "price": 849,
+    "description": "Chrome OS laptop with exceptional build quality and smooth performance.",
+    "specification": [
+      "13.3-inch FHD touchscreen",
+      "Intel Core i5-8200Y",
+      "8GB LPDDR3 RAM",
+      "128GB SSD storage",
+      "Up to 12 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Apple AirPods Pro (2nd Generation)",
+    "product_image": "https://www.apple.com/v/airpods-pro/m/images/meta/og__eui2mpgzwyaa_overview.png",
+    "product_id": "A001",
+    "category": "Accessories",
+    "brand": "Apple",
+    "price": 249,
+    "description": "Premium wireless earbuds with active noise cancellation and transparency mode.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "Spatial audio with dynamic head tracking",
+      "Up to 6 hours of listening time",
+      "MagSafe charging case"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Samsung Galaxy Buds Pro",
+    "product_image": "https://assets.hardwarezone.com/img/2021/01/samsung-galaxy-buds-pro-hero-800p.jpg",
+    "product_id": "A002",
+    "category": "Accessories",
+    "brand": "Samsung",
+    "price": 199,
+    "description": "Premium wireless earbuds with intelligent active noise cancellation.",
+    "specification": [
+      "Two-way speakers",
+      "Active Noise Cancellation",
+      "IPX7 water resistance",
+      "Up to 8 hours of battery life",
+      "Wireless charging case"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://assets.hardwarezone.com/img/2022/08/logitech-mx-master-3s-intro.jpg",
+    "product_id": "A003",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 99,
+    "description": "High-performance wireless mouse with advanced features for productivity.",
+    "specification": [
+      "Ergonomic design",
+      "Ultra-fast scrolling",
+      "Darkfield sensor for precise tracking",
+      "Customizable buttons",
+      "Bluetooth and USB receiver connectivity"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Apple Magic Keyboard",
+    "product_image": "https://i.rtings.com/assets/products/pKsmUrxc/apple-magic-keyboard-2017/design-medium.jpg?format=auto",
+    "product_id": "A004",
+    "category": "Accessories",
+    "brand": "Apple",
+    "price": 99,
+    "description": "Wireless keyboard with a sleek design and a responsive typing experience.",
+    "specification": [
+      "Compact design",
+      "Rechargeable battery",
+      "Scissor mechanism for improved stability",
+      "Wireless connectivity via Bluetooth"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Bose QuietComfort 35 II",
+    "product_image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2016/06/bose-quietcomfort-44-1.jpg",
+    "product_id": "A005",
+    "category": "Accessories",
+    "brand": "Bose",
+    "price": 299,
+    "description": "Wireless noise-canceling headphones with excellent sound quality.",
+    "specification": [
+      "Acoustic Noise Cancelling technology",
+      "Up to 20 hours of battery life",
+      "Voice access to Amazon Alexa and Google Assistant",
+      "Comfortable over-ear design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Anker PowerCore 10000mAh Portable Charger",
+    "product_image": "https://i.pcmag.com/imagery/reviews/064fmL9zlIyPId4HGOB2OT3-3..v1569477976.jpg",
+    "product_id": "A006",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 29,
+    "description": "Compact and lightweight portable charger for on-the-go power.",
+    "specification": [
+      "10,000mAh capacity",
+      "PowerIQ technology for fast charging",
+      "Compact design",
+      "Compatible with all USB devices"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "https://www.sony-asia.com/image/aecb44d1ed9d12d83c2736daa1786b75?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9",
+    "product_id": "A007",
+    "category": "Accessories",
+    "brand": "Sony",
+    "price": 349,
+    "description": "Industry-leading noise-canceling headphones with superior sound quality.",
+    "specification": [
+      "Adaptive Sound Control",
+      "Touch sensor controls",
+      "Speak-to-Chat technology",
+      "Up to 30 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_title": "Fitbit Charge 5",
+    "product_image": "https://www.cnet.com/a/img/resize/38aa40105c38ce26110e5d90d548512af4aa6a3a/hub/2021/08/24/d76bf40f-f1e7-436b-8c3a-1882cd1b538b/fitbit-charge-5-still-deep-sea-sport.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "product_id": "A008",
+    "category": "Accessories",
+    "brand": "Fitbit",
+    "price": 149,
+    "description": "Advanced health and fitness tracker with built-in GPS and heart rate monitoring.",
+    "specification": [
+      "Daily Readiness Score",
+      "Stress management tools",
+      "Built-in GPS",
+      "Up to 7 days battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Amazon Echo Dot (5th Gen)",
+    "product_image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/10/Amazon-Echo-Dot-with-Clock-5th-generation-1-920x614.jpg",
+    "product_id": "A009",
+    "category": "Accessories",
+    "brand": "Amazon",
+    "price": 49,
+    "description": "Smart speaker with Alexa for voice control of your smart home.",
+    "specification": [
+      "Voice control for music, news, and smart home",
+      "Compact design",
+      "Improved sound quality",
+      "Bluetooth and Wi-Fi connectivity"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Razer Huntsman Mini",
+    "product_image": "https://vibegaming.com.bd/wp-content/uploads/2023/07/v145.jpg",
+    "product_id": "A010",
+    "category": "Accessories",
+    "brand": "Razer",
+    "price": 119,
+    "description": "Compact 60% gaming keyboard with customizable RGB lighting.",
+    "specification": [
+      "Razer Linear Optical switches",
+      "Fully customizable RGB lighting",
+      "Compact design for portability",
+      "USB-C connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Logitech C920 HD Webcam",
+    "product_image": "https://www.computervillage.com.bd/image/cache/catalog/Logitech/logitech-c920-hd-pro-webcam-550x350h.jpg",
+    "product_id": "A011",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 79,
+    "description": "High-definition webcam with excellent low-light performance.",
+    "specification": [
+      "Full HD 1080p video recording",
+      "Automatic light correction",
+      "Built-in dual microphones",
+      "Compatible with major video conferencing platforms"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "JBL Flip 6 Portable Bluetooth Speaker",
+    "product_image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0942870c/pdp/JBL_Flip_6_Lifestyle_01_904x560px.png?sw=904&sh=560",
+    "product_id": "A012",
+    "category": "Accessories",
+    "brand": "JBL",
+    "price": 99,
+    "description": "Powerful portable speaker with impressive sound quality and durability.",
+    "specification": [
+      "Up to 12 hours of playtime",
+      "IP67 waterproof and dustproof",
+      "PartyBoost feature for pairing multiple JBL speakers",
+      "Bluetooth connectivity"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "GoPro HERO10 Black",
+    "product_image": "https://www.cnet.com/a/img/resize/5cc6b6bf64b75e2ce23327de8f05ba22f9f3c72a/hub/2021/09/15/93893848-64b5-4e9d-a000-bfb7004e71a9/gopro-hero10-black-01.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "product_id": "A013",
+    "category": "Accessories",
+    "brand": "GoPro",
+    "price": 399,
+    "description": "Versatile action camera with stunning 5.3K video and 23MP photos.",
+    "specification": [
+      "5.3K60 video and 23MP photos",
+      "HyperSmooth 4.0 stabilization",
+      "Waterproof up to 33ft",
+      "Live streaming capabilities"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Anker Soundcore Life P3",
+    "product_image": "https://i.rtings.com/assets/products/BStSoq0S/anker-soundcore-life-p3-truly-wireless/design-medium.jpg?format=auto",
+    "product_id": "A014",
+    "category": "Accessories",
+    "brand": "Anker",
+    "price": 79,
+    "description": "True wireless earbuds with custom sound profiles and noise cancellation.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "35 hours of playtime with charging case",
+      "IPX5 water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Apple MagSafe Charger",
+    "product_image": "https://www.cnet.com/a/img/resize/9a44a172aab6333680d3a6ac39a6ebd6d8d4567b/hub/2021/03/15/a4cc2eaa-38dc-423d-a456-56c5b654e3cd/apple-magsafe-charger.jpg?auto=webp&width=1200",
+    "product_id": "A015",
+    "category": "Accessories",
+    "brand": "Apple",
+    "price": 39,
+    "description": "Magnetic wireless charger designed for iPhone 12 and later models.",
+    "specification": [
+      "15W fast charging",
+      "Magnetic alignment",
+      "Compact design",
+      "USB-C connector"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://static1.xdaimages.com/wordpress/wp-content/uploads/2022/09/Apple-Watch-series-8.jpg",
+    "product_id": "S001",
+    "category": "Smartwatches",
+    "brand": "Apple",
+    "price": 399,
+    "description": "Smartwatch with advanced health features and a stylish design.",
+    "specification": [
+      "Always-On Retina display",
+      "Blood Oxygen and ECG monitoring",
+      "Sleep tracking",
+      "Water resistant up to 50 meters",
+      "Fitness and health apps"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://www.lifewire.com/thmb/svKG05gww5UeDwIiZmrKL7xNxXU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/galaxy-watch-5-d0faf1199f6743b99c1b893dd28082af.jpg",
+    "product_id": "S002",
+    "category": "Smartwatches",
+    "brand": "Samsung",
+    "price": 279,
+    "description": "Feature-rich smartwatch with health tracking and LTE connectivity.",
+    "specification": [
+      "Super AMOLED display",
+      "Body composition analysis",
+      "Up to 40 hours of battery life",
+      "Sleep tracking and workout modes",
+      "Compatible with Android devices"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Garmin Venu 2",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/ka9XaW77FHw9z5fDTa5yqT.jpg",
+    "product_id": "S003",
+    "category": "Smartwatches",
+    "brand": "Garmin",
+    "price": 399,
+    "description": "GPS smartwatch with vibrant display and fitness tracking features.",
+    "specification": [
+      "1.3-inch AMOLED display",
+      "Up to 11 days battery life",
+      "Built-in GPS and heart rate monitoring",
+      "Sleep and stress tracking",
+      "Water-rated to 50 meters"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Fitbit Versa 3",
+    "product_image": "https://www.lifewire.com/thmb/3WYgurLP_vAutsFRwslaIEPsobY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fitbit-Versa-3-Hero5x4-3bcbedf50dc940008e9c10ee237c88a3.jpg",
+    "product_id": "S004",
+    "category": "Smartwatches",
+    "brand": "Fitbit",
+    "price": 229,
+    "description": "Health and fitness smartwatch with built-in GPS and voice assistant.",
+    "specification": [
+      "Always-On display",
+      "Heart rate and sleep tracking",
+      "Voice assistant support",
+      "6+ days battery life",
+      "Compatible with iOS and Android"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Fossil Gen 6 Smartwatch",
+    "product_image": "https://www.androidauthority.com/wp-content/uploads/2021/10/Fossil-Gen-6-right-profile.jpg",
+    "product_id": "S005",
+    "category": "Smartwatches",
+    "brand": "Fossil",
+    "price": 299,
+    "description": "Stylish smartwatch with Wear OS and various health tracking features.",
+    "specification": [
+      "1.28-inch AMOLED display",
+      "Snapdragon Wear 4100+",
+      "Heart rate and SpO2 monitoring",
+      "Up to 24 hours of battery life",
+      "Customizable watch faces"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_title": "Amazfit GTR 3",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/6qYn4AjLkR2sZ3HH5bposj.jpg",
+    "product_id": "S006",
+    "category": "Smartwatches",
+    "brand": "Amazfit",
+    "price": 199,
+    "description": "Stylish smartwatch with a large display and comprehensive health tracking.",
+    "specification": [
+      "1.39-inch AMOLED display",
+      "Up to 21 days battery life",
+      "Over 150 sports modes",
+      "Heart rate and sleep monitoring",
+      "Water resistant up to 5 ATM"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "TicWatch Pro 3",
+    "product_image": "https://www.androidauthority.com/wp-content/uploads/2021/11/TicWatch-Pro-3-Ultra-watch-face-scaled.jpg",
+    "product_id": "S007",
+    "category": "Smartwatches",
+    "brand": "Mobvoi",
+    "price": 299,
+    "description": "Dual-layer display smartwatch with long battery life and health tracking.",
+    "specification": [
+      "1.4-inch AMOLED display",
+      "Snapdragon Wear 4100",
+      "Up to 3 days battery life",
+      "Heart rate and SpO2 monitoring",
+      "Built-in GPS"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://thebit.nz/wp-content/uploads/2022/04/Untitled-1_0003_IMG20220420140612.jpg",
+    "product_id": "S008",
+    "category": "Smartwatches",
+    "brand": "Huawei",
+    "price": 249,
+    "description": "Smartwatch with comprehensive fitness tracking and long battery life.",
+    "specification": [
+      "1.43-inch AMOLED display",
+      "Up to 14 days battery life",
+      "Heart rate and SpO2 monitoring",
+      "Built-in GPS",
+      "Water resistant up to 5 ATM"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Suunto 9 Baro",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/KFjHFdueY5TstoRK9Gbyb4.jpg",
+    "product_id": "S009",
+    "category": "Smartwatches",
+    "brand": "Suunto",
+    "price": 599,
+    "description": "High-performance GPS watch with advanced tracking features.",
+    "specification": [
+      "1.4-inch color display",
+      "Up to 120 hours battery life",
+      "Barometer for accurate altitude measurement",
+      "Over 80 sport modes",
+      "Water resistant up to 100 meters"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Withings Steel HR",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/uqTbCRaFXuEVCrrfGqzuo6.jpg",
+    "product_id": "S010",
+    "category": "Smartwatches",
+    "brand": "Withings",
+    "price": 199,
+    "description": "Hybrid smartwatch with classic design and smart health tracking.",
+    "specification": [
+      "Analog watch face with digital display",
+      "Heart rate and sleep tracking",
+      "Up to 25 days battery life",
+      "Water resistant up to 50 meters"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Garmin Forerunner 245",
+    "product_image": "https://res.garmin.com/en/products/010-02120-00/g/010-02120-00-lifestyle-mobile-understanding-you-a5cffa16-a01c-4ef1-909b-112178b7163f.png",
+    "product_id": "S011",
+    "category": "Smartwatches",
+    "brand": "Garmin",
+    "price": 349,
+    "description": "Running smartwatch with advanced metrics and GPS tracking.",
+    "specification": [
+      "1.2-inch sunlight-readable display",
+      "Up to 7 days battery life",
+      "VO2 max estimation",
+      "Built-in GPS",
+      "Music storage and playback"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_title": "Fitbit Sense",
+    "product_image": "https://media.dcrainmaker.com/images/2020/09/Fitbit-Sense-In-Depth-Review-Data.jpg",
+    "product_id": "S012",
+    "category": "Smartwatches",
+    "brand": "Fitbit",
+    "price": 299,
+    "description": "Smart health smartwatch with stress management and heart health features.",
+    "specification": [
+      "Always-On display",
+      "EDA scan app for stress management",
+      "Skin temperature sensor",
+      "GPS and heart rate tracking",
+      "6+ days battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Amazfit Bip U Pro",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/E2o3bbjLjLrwogwmKWPjkd.jpg",
+    "product_id": "S013",
+    "category": "Smartwatches",
+    "brand": "Amazfit",
+    "price": 69,
+    "description": "Budget-friendly smartwatch with built-in GPS and health tracking.",
+    "specification": [
+      "1.43-inch color display",
+      "Up to 9 days battery life",
+      "Built-in GPS",
+      "Heart rate and SpO2 monitoring",
+      "Over 60 sports modes"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Polar Vantage V2",
+    "product_image": "https://images.bauerhosting.com/affiliates/sites/8/2024/07/Polar-Vantage-V2-review-hero.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+    "product_id": "S014",
+    "category": "Smartwatches",
+    "brand": "Polar",
+    "price": 599,
+    "description": "Multisport watch with advanced training and recovery features.",
+    "specification": [
+      "1.2-inch color touchscreen",
+      "Up to 40 hours battery life",
+      "GPS and heart rate tracking",
+      "Running power measurement",
+      "Water resistant up to 100 meters"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Mobvoi TicWatch E3",
+    "product_image": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2021/08/30/TicWatch-E3-review-grey-scaled.jpg",
+    "product_id": "S015",
+    "category": "Smartwatches",
+    "brand": "Mobvoi",
+    "price": 199,
+    "description": "Affordable smartwatch with health tracking and Wear OS.",
+    "specification": [
+      "1.3-inch AMOLED display",
+      "Up to 20 hours battery life",
+      "Heart rate and SpO2 monitoring",
+      "Built-in GPS",
+      "Customizable watch faces"
+    ],
+    "availability": true,
+    "rating": 4.4
+  }
+]

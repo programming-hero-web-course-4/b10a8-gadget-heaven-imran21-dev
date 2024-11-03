@@ -6,7 +6,7 @@ const Navbar = () => {
   const {pathname} = useLocation()
 
     return (
-        <div className={pathname === '/' ? 'navbar pt-7 md:container mx-auto relative z-50 ':'navbar md:container mx-auto relative z-50 '}>
+        <div className={pathname === '/' ? 'navbar pt-7 md:container mx-auto relative z-50 ':'navbar md:container mx-auto relative z-50 bg-white'}>
         <div className={pathname === '/' ? 'navbar-start text-white': 'navbar-start'}>
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
