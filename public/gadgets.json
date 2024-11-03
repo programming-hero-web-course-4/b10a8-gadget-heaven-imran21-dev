@@ -1064,5 +1064,9 @@
     ],
     "availability": true,
     "rating": 4.4
+  },
+  {
+  "availability": true,
+    "rating": 4.4
   }
 ]
