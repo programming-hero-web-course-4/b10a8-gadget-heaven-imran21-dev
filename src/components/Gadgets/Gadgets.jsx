@@ -12,7 +12,7 @@ const Gadgets = () => {
     const selectedGadgets = data.filter(gadget => gadget.category === categoryByPathname2)
    
     return (
-        <div className="pt-20  pb-52 md:container mx-auto">
+        <div id="main" className="pt-20  pb-52 md:container mx-auto">
             <h1 className="text-2xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
             <section className="flex pt-10 gap-6">
                  <div id='gadgets' className="w-1/5 rounded-xl bg-white flex flex-col items-center py-8 gap-6 max-h-max">

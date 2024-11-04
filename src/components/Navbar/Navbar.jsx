@@ -1,11 +1,14 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
+import { useContext } from 'react';
+import { AssetContext } from '../../App';
 
 
 const Navbar = () => {
   const {pathname} = useLocation()
-
+  const [cart,wishlist,cartWishToggleBtn] = useContext(AssetContext)
+ 
     return (
  
           <div id='nav' className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar pt-11 md:container mx-auto relative z-50 ':'navbar md:container mx-auto relative z-50 '}>
@@ -45,8 +48,13 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-3">
-         <button className='border bg-white border-pColor/20 rounded-full w-9 h-9 flex items-center justify-center text-xl'><CiShoppingCart></CiShoppingCart></button>
-         <button className='border bg-white border-pColor/20 rounded-full w-9 h-9 flex items-center justify-center text-xl'><CiHeart></CiHeart></button>
+        <Link to='/Dashboard'>
+        <button onClick={()=>cartWishToggleBtn('cart')} className="text-xl bg-white hover:border-white hover:bg-pColor/50 hover:text-white btn rounded-full h-9 w-9 min-h-max p-0 border border-pColor/20 relative"><CiShoppingCart></CiShoppingCart>{cart.length > 0 && <span className='absolute -top-1 -right-1 text-[9px] bg-[#ff0000] w-[18px] h-[18px] flex items-center justify-center rounded-full text-white'>{cart.length > 99 ? <>99 <sup>+</sup> </>: cart.length}</span>}</button>
+        </Link>
+
+        <Link to='/Dashboard'>
+        <button onClick={()=>cartWishToggleBtn('wishlist')} className="text-xl bg-white hover:border-white hover:bg-pColor/50 hover:text-white btn rounded-full h-9 w-9 min-h-max p-0 border border-pColor/20 relative"><CiHeart></CiHeart>{wishlist.length > 0 && <span className='absolute -top-1 -right-1 text-[9px] bg-[#ff0000] w-[18px] h-[18px] flex items-center justify-center rounded-full text-white'>{wishlist.length > 99 ? <>99 <sup>+</sup> </>: wishlist.length}</span>}</button>
+        </Link>
         </div>
       </div>
        

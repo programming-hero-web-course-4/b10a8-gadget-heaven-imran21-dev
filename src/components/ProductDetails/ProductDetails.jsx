@@ -1,16 +1,17 @@
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
-import { useLoaderData, useNavigate, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useOutletContext, useParams } from "react-router-dom";
 import { Rating, ThinStar } from '@smastrom/react-rating';
 import { useState } from "react";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 const ProductDetails = () => {
-   
+    const [addCartBtn,addWishlistBtn] = useOutletContext();
+  
     const data = useLoaderData();
     const {pId} = useParams();
 
     const clickedGadget = data.find(gadget => gadget.product_id === pId)
-    const {availability,description,price,product_image,product_title,rating,specification} = clickedGadget;
+    const {availability,description,price,product_image,product_title,rating,specification,product_id} = clickedGadget;
     const [r, setR] = useState(parseInt(rating));
     const myStyles = {
         itemShapes: ThinStar,
@@ -19,8 +20,9 @@ const ProductDetails = () => {
       }
       const navigate = useNavigate();
       const backBtn = ()=> {
-        navigate(-1)
+        navigate(-1)  
       }
+    
     return (
         <div>
              <div className="text-center bg-pColor pt-7 pb-52 relative">
@@ -56,8 +58,9 @@ const ProductDetails = () => {
                          <span className="bg-sColor/10 rounded-full px-3 py-1">{rating}</span>
                     </div>
                     <div className="pt-8 flex items-center gap-5">
-                        <button className="flex items-center bg-pColor rounded-full px-5 text-white font-semibold btn">Add To Cart <CiShoppingCart className="text-2xl"></CiShoppingCart></button>
-                        <button className="text-xl bg-white hover:border-pColor/20 hover:bg-pColor hover:text-white btn rounded-full h-12 w-12 min-h-max p-0 border border-pColor/20 "><CiHeart className=""></CiHeart></button>
+                        <button onClick={()=>addCartBtn(clickedGadget)} className="flex items-center bg-pColor rounded-full px-5 text-white font-semibold btn">Add To Cart <CiShoppingCart className="text-2xl"></CiShoppingCart></button>
+
+                        <button id={product_id} onClick={()=> addWishlistBtn(clickedGadget)} className="text-xl bg-white hover:border-pColor/20 hover:bg-pColor hover:text-white btn rounded-full h-12 w-12 min-h-max p-0 border border-pColor/20 "><CiHeart className=""></CiHeart></button>
                     </div>
                 </div>
              </div>
