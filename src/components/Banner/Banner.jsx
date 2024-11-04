@@ -1,4 +1,6 @@
 import bannerImg from '../../assets/banner.jpg'
+import Gadgets from '../Gadgets/Gadgets';
+
 
 const Banner = () => {
     return (
@@ -17,7 +19,7 @@ const Banner = () => {
                     <img className='w-full rounded-3xl h-[450px] object-cover' src={bannerImg} alt="" />
                 </figure>
             </div>
-          
+      <Gadgets></Gadgets>
         </>
     );
 };

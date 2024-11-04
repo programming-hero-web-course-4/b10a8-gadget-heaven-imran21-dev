@@ -1,5 +1,41 @@
 [
   {
+    "product_title": "LG Gram 17",
+    "product_image": "https://reviewed-com-res.cloudinary.com/image/fetch/s--O5pSFU77--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1679416442474/lg-gram-pro-17-6.jpg",
+    "product_id": "L011",
+    "category": "Laptops",
+    "brand": "LG",
+    "price": 1899,
+    "description": "Ultra-light 17-inch laptop with extended battery life for productivity.",
+    "specification": [
+      "17-inch WQXGA display",
+      "Intel Core i7-1260P",
+      "16GB LPDDR5 RAM",
+      "1TB SSD storage",
+      "Up to 20 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "Huawei MateBook X Pro",
+    "product_image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-x-pro-ultra-premium-edition/images/device/huawei-matebook-x-pro-super-charge.jpg",
+    "product_id": "L012",
+    "category": "Laptops",
+    "brand": "Huawei",
+    "price": 1599,
+    "description": "Premium ultrabook with stunning display and excellent build quality.",
+    "specification": [
+      "14.2-inch 3K touchscreen",
+      "Intel Core i7-1195G7",
+      "16GB LPDDR4x RAM",
+      "1TB SSD storage",
+      "Lightweight and portable"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
     "product_title": "Apple iPhone 15 Pro Max",
     "product_image": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/wm/2023/10/iphone-15-pro-max-1.JPG",
     "product_id": "A001",
@@ -54,6 +90,40 @@
     "rating": 4.6
   },
   {
+    "product_title": "Razer Huntsman Mini",
+    "product_image": "https://vibegaming.com.bd/wp-content/uploads/2023/07/v145.jpg",
+    "product_id": "A010",
+    "category": "Accessories",
+    "brand": "Razer",
+    "price": 119,
+    "description": "Compact 60% gaming keyboard with customizable RGB lighting.",
+    "specification": [
+      "Razer Linear Optical switches",
+      "Fully customizable RGB lighting",
+      "Compact design for portability",
+      "USB-C connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_title": "Logitech C920 HD Webcam",
+    "product_image": "https://www.computervillage.com.bd/image/cache/catalog/Logitech/logitech-c920-hd-pro-webcam-550x350h.jpg",
+    "product_id": "A011",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "price": 79,
+    "description": "High-definition webcam with excellent low-light performance.",
+    "specification": [
+      "Full HD 1080p video recording",
+      "Automatic light correction",
+      "Built-in dual microphones",
+      "Compatible with major video conferencing platforms"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
     "product_title": "OnePlus 11",
     "product_image": "https://www.oneplus.com/content/dam/oasis/page/2023/global/home/salami-share.jpg",
     "product_id": "O001",
@@ -87,6 +157,60 @@
     ],
     "availability": true,
     "rating": 4.4
+  },
+  {
+    "product_title": "Amazfit GTR 3",
+    "product_image": "https://cdn.mos.cms.futurecdn.net/6qYn4AjLkR2sZ3HH5bposj.jpg",
+    "product_id": "S006",
+    "category": "Smartwatches",
+    "brand": "Amazfit",
+    "price": 199,
+    "description": "Stylish smartwatch with a large display and comprehensive health tracking.",
+    "specification": [
+      "1.39-inch AMOLED display",
+      "Up to 21 days battery life",
+      "Over 150 sports modes",
+      "Heart rate and sleep monitoring",
+      "Water resistant up to 5 ATM"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_title": "TicWatch Pro 3",
+    "product_image": "https://www.androidauthority.com/wp-content/uploads/2021/11/TicWatch-Pro-3-Ultra-watch-face-scaled.jpg",
+    "product_id": "S007",
+    "category": "Smartwatches",
+    "brand": "Mobvoi",
+    "price": 299,
+    "description": "Dual-layer display smartwatch with long battery life and health tracking.",
+    "specification": [
+      "1.4-inch AMOLED display",
+      "Snapdragon Wear 4100",
+      "Up to 3 days battery life",
+      "Heart rate and SpO2 monitoring",
+      "Built-in GPS"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://thebit.nz/wp-content/uploads/2022/04/Untitled-1_0003_IMG20220420140612.jpg",
+    "product_id": "S008",
+    "category": "Smartwatches",
+    "brand": "Huawei",
+    "price": 249,
+    "description": "Smartwatch with comprehensive fitness tracking and long battery life.",
+    "specification": [
+      "1.43-inch AMOLED display",
+      "Up to 14 days battery life",
+      "Heart rate and SpO2 monitoring",
+      "Built-in GPS",
+      "Water resistant up to 5 ATM"
+    ],
+    "availability": true,
+    "rating": 4.6
   },
   {
     "product_title": "Samsung Galaxy Z Fold5",
@@ -448,42 +572,7 @@
     "availability": true,
     "rating": 4.5
   },
-  {
-    "product_title": "LG Gram 17",
-    "product_image": "https://reviewed-com-res.cloudinary.com/image/fetch/s--O5pSFU77--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_668,q_auto,w_1187/https://reviewed-production.s3.amazonaws.com/1679416442474/lg-gram-pro-17-6.jpg",
-    "product_id": "L011",
-    "category": "Laptops",
-    "brand": "LG",
-    "price": 1899,
-    "description": "Ultra-light 17-inch laptop with extended battery life for productivity.",
-    "specification": [
-      "17-inch WQXGA display",
-      "Intel Core i7-1260P",
-      "16GB LPDDR5 RAM",
-      "1TB SSD storage",
-      "Up to 20 hours battery life"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_title": "Huawei MateBook X Pro",
-    "product_image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-x-pro-ultra-premium-edition/images/device/huawei-matebook-x-pro-super-charge.jpg",
-    "product_id": "L012",
-    "category": "Laptops",
-    "brand": "Huawei",
-    "price": 1599,
-    "description": "Premium ultrabook with stunning display and excellent build quality.",
-    "specification": [
-      "14.2-inch 3K touchscreen",
-      "Intel Core i7-1195G7",
-      "16GB LPDDR4x RAM",
-      "1TB SSD storage",
-      "Lightweight and portable"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
+  
   {
     "product_title": "ASUS ZenBook Duo 14",
     "product_image": "https://i3.ytimg.com/vi/ns82oTnhFY0/maxresdefault.jpg",
@@ -694,40 +783,7 @@
     "availability": true,
     "rating": 4.5
   },
-  {
-    "product_title": "Razer Huntsman Mini",
-    "product_image": "https://vibegaming.com.bd/wp-content/uploads/2023/07/v145.jpg",
-    "product_id": "A010",
-    "category": "Accessories",
-    "brand": "Razer",
-    "price": 119,
-    "description": "Compact 60% gaming keyboard with customizable RGB lighting.",
-    "specification": [
-      "Razer Linear Optical switches",
-      "Fully customizable RGB lighting",
-      "Compact design for portability",
-      "USB-C connectivity"
-    ],
-    "availability": true,
-    "rating": 4.7
-  },
-  {
-    "product_title": "Logitech C920 HD Webcam",
-    "product_image": "https://www.computervillage.com.bd/image/cache/catalog/Logitech/logitech-c920-hd-pro-webcam-550x350h.jpg",
-    "product_id": "A011",
-    "category": "Accessories",
-    "brand": "Logitech",
-    "price": 79,
-    "description": "High-definition webcam with excellent low-light performance.",
-    "specification": [
-      "Full HD 1080p video recording",
-      "Automatic light correction",
-      "Built-in dual microphones",
-      "Compatible with major video conferencing platforms"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
+  
   {
     "product_title": "JBL Flip 6 Portable Bluetooth Speaker",
     "product_image": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0942870c/pdp/JBL_Flip_6_Lifestyle_01_904x560px.png?sw=904&sh=560",
@@ -886,60 +942,7 @@
     "availability": true,
     "rating": 4.4
   },
-  {
-    "product_title": "Amazfit GTR 3",
-    "product_image": "https://cdn.mos.cms.futurecdn.net/6qYn4AjLkR2sZ3HH5bposj.jpg",
-    "product_id": "S006",
-    "category": "Smartwatches",
-    "brand": "Amazfit",
-    "price": 199,
-    "description": "Stylish smartwatch with a large display and comprehensive health tracking.",
-    "specification": [
-      "1.39-inch AMOLED display",
-      "Up to 21 days battery life",
-      "Over 150 sports modes",
-      "Heart rate and sleep monitoring",
-      "Water resistant up to 5 ATM"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
-  {
-    "product_title": "TicWatch Pro 3",
-    "product_image": "https://www.androidauthority.com/wp-content/uploads/2021/11/TicWatch-Pro-3-Ultra-watch-face-scaled.jpg",
-    "product_id": "S007",
-    "category": "Smartwatches",
-    "brand": "Mobvoi",
-    "price": 299,
-    "description": "Dual-layer display smartwatch with long battery life and health tracking.",
-    "specification": [
-      "1.4-inch AMOLED display",
-      "Snapdragon Wear 4100",
-      "Up to 3 days battery life",
-      "Heart rate and SpO2 monitoring",
-      "Built-in GPS"
-    ],
-    "availability": true,
-    "rating": 4.5
-  },
-  {
-    "product_title": "Huawei Watch GT 3",
-    "product_image": "https://thebit.nz/wp-content/uploads/2022/04/Untitled-1_0003_IMG20220420140612.jpg",
-    "product_id": "S008",
-    "category": "Smartwatches",
-    "brand": "Huawei",
-    "price": 249,
-    "description": "Smartwatch with comprehensive fitness tracking and long battery life.",
-    "specification": [
-      "1.43-inch AMOLED display",
-      "Up to 14 days battery life",
-      "Heart rate and SpO2 monitoring",
-      "Built-in GPS",
-      "Water resistant up to 5 ATM"
-    ],
-    "availability": true,
-    "rating": 4.6
-  },
+  
   {
     "product_title": "Suunto 9 Baro",
     "product_image": "https://cdn.mos.cms.futurecdn.net/KFjHFdueY5TstoRK9Gbyb4.jpg",
@@ -1063,10 +1066,6 @@
       "Customizable watch faces"
     ],
     "availability": true,
-    "rating": 4.4
-  },
-  {
-  "availability": true,
     "rating": 4.4
   }
 ]

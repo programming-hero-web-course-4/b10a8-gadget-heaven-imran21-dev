@@ -9,7 +9,10 @@ export default {
     extend: {},
     colors: {
       pColor : '#9538E2',
-      white: '#ffff'
+      white: '#ffff',
+      black: '#000',
+      sColor: '#0404040a',
+
     },
     backgroundColor: {
       'pColor' : '#9538E2',

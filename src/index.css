@@ -8,3 +8,14 @@ body{
 font-family: "Sora", sans-serif;
 background-color: #f6f6f6;
 }
+
+.active{
+background: #9538E2;
+color: white;
+font-weight: 700;
+border-color: #9538E2;
+
+}
+.active:hover{
+background-color: #9538E2 !important;
+}
