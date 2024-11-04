@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <header className='bg-white'><Navbar></Navbar></header>
       <Outlet></Outlet>
       <Footer></Footer>
     </>

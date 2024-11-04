@@ -10,12 +10,12 @@ const Gadgets = () => {
     const sliceLenght = categoryByPathname.length -1;
     const categoryByPathname2 = categoryByPathname.slice(0, sliceLenght)
     const selectedGadgets = data.filter(gadget => gadget.category === categoryByPathname2)
-   console.log(categoryByPathname2)
+   
     return (
         <div className="pt-20  pb-52 md:container mx-auto">
             <h1 className="text-2xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
             <section className="flex pt-10 gap-6">
-                 <div className="w-1/5 rounded-xl bg-white flex flex-col items-center py-8 gap-6 max-h-max">
+                 <div id='gadgets' className="w-1/5 rounded-xl bg-white flex flex-col items-center py-8 gap-6 max-h-max">
                <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/'>
                All Products
                </NavLink>

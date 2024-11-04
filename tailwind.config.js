@@ -12,6 +12,7 @@ export default {
       white: '#ffff',
       black: '#000',
       sColor: '#0404040a',
+      tr: '#00000000'
 
     },
     backgroundColor: {

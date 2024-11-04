@@ -103,7 +103,7 @@
       "Compact design for portability",
       "USB-C connectivity"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7
   },
   {
@@ -389,7 +389,7 @@
       "150W fast charging",
       "Up to 256GB storage"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.4
   },
   {
@@ -746,7 +746,7 @@
       "Speak-to-Chat technology",
       "Up to 30 hours of battery life"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.9
   },
   {
@@ -1065,7 +1065,7 @@
       "Built-in GPS",
       "Customizable watch faces"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.4
   }
 ]

@@ -1,13 +1,15 @@
-import { useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
+
 
 const Navbar = () => {
   const {pathname} = useLocation()
 
     return (
-        <div className={pathname === '/' ? 'navbar pt-7 md:container mx-auto relative z-50 ':'navbar md:container mx-auto relative z-50 bg-white'}>
-        <div className={pathname === '/' ? 'navbar-start text-white': 'navbar-start'}>
+ 
+          <div id='nav' className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar pt-11 md:container mx-auto relative z-50 ':'navbar md:container mx-auto relative z-50 '}>
+        <div className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar-start text-white': 'navbar-start'}>
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -26,20 +28,20 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Home </a></li>
-            <li><a>Statistics</a></li>
-           <li><a>Dashboard</a></li>
+             <NavLink to='/'><li>Home </li></NavLink>
+           <NavLink to='/Statistics'> <li>Statistics</li></NavLink>
+           <NavLink to='/Dashboard'><li>Dashboard</li></NavLink>
             </ul>
           </div>
           <a className="font-bold text-xl flex items-center">
             <img src={logo} className='w-8' alt="" />
             <span>Gadget Heaven</span></a>
         </div>
-        <div className={pathname === '/' ? 'navbar-center hidden lg:flex text-white' :'navbar-center hidden lg:flex'}>
+        <div className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar-center  hidden lg:flex text-white' :'navbar-center hidden lg:flex'}>
           <ul className="menu menu-horizontal px-1">
-            <li><a>Home </a></li>
-            <li><a>Statistics</a></li>
-           <li><a>Dashboard</a></li>
+            <NavLink className='px-3 font-normal' to='/'><li>Home </li></NavLink>
+           <NavLink className='px-3 font-normal' to='/Statistics'> <li>Statistics</li></NavLink>
+           <NavLink className='px-3 font-normal' to='/Dashboard'><li>Dashboard</li></NavLink>
           </ul>
         </div>
         <div className="navbar-end flex gap-3">
@@ -47,6 +49,7 @@ const Navbar = () => {
          <button className='border bg-white border-pColor/20 rounded-full w-9 h-9 flex items-center justify-center text-xl'><CiHeart></CiHeart></button>
         </div>
       </div>
+       
     );
 };
 
