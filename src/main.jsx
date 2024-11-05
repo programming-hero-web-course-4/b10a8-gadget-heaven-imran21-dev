@@ -15,6 +15,7 @@ import ErrorElement from './components/ErrorElement/ErrorElement.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
+import Orders from './components/Orders/Orders.jsx'
 
 
 const router = createBrowserRouter([
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
           element: <ProductDetails></ProductDetails>,
           loader: () => fetch('/gadgets.json'),
 
+        },
+        {
+          path: '/Orders',
+          element: <Orders></Orders>
         }
        
       ],

@@ -1,7 +1,7 @@
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
 import { useLoaderData, useNavigate, useOutletContext, useParams } from "react-router-dom";
 import { Rating, ThinStar } from '@smastrom/react-rating';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 const ProductDetails = () => {
@@ -22,9 +22,11 @@ const ProductDetails = () => {
       const backBtn = ()=> {
         navigate(-1)  
       }
-    
+      useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
-        <div>
+        <div className="pb-32">
              <div className="text-center bg-pColor pt-7 pb-52 relative">
                 <div className=" md:container mx-auto flex justify-center items-center relative">
                 <button onClick={backBtn} className="left-0 btn bg-pColor/0 border-none px-0 py-0 h-max rounded-full hover:bg-pColor/10 min-h-0 text-white absolute text-3xl"><IoArrowBackCircleOutline></IoArrowBackCircleOutline></button>

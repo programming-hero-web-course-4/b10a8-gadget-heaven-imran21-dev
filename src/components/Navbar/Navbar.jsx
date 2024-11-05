@@ -34,17 +34,24 @@ const Navbar = () => {
              <NavLink to='/'><li>Home </li></NavLink>
            <NavLink to='/Statistics'> <li>Statistics</li></NavLink>
            <NavLink to='/Dashboard'><li>Dashboard</li></NavLink>
+           <NavLink className='px-3 font-normal' to='/Orders'><li>Orders</li></NavLink>
             </ul>
           </div>
+          <Link to='/'>
           <a className="font-bold text-xl flex items-center">
             <img src={logo} className='w-8' alt="" />
             <span>Gadget Heaven</span></a>
+          </Link>
         </div>
         <div className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar-center  hidden lg:flex text-white' :'navbar-center hidden lg:flex'}>
           <ul className="menu menu-horizontal px-1">
-            <NavLink className='px-3 font-normal' to='/'><li>Home </li></NavLink>
+            <NavLink style={({ isActive }) => {
+             return isActive ? { color: "white", textDecoration: 'underline', fontWeight: 'bold' } : {};
+             }}
+  className='px-3 font-normal' to='/'><li>Home </li></NavLink>
            <NavLink className='px-3 font-normal' to='/Statistics'> <li>Statistics</li></NavLink>
            <NavLink className='px-3 font-normal' to='/Dashboard'><li>Dashboard</li></NavLink>
+           <NavLink className='px-3 font-normal' to='/Orders'><li>Orders</li></NavLink>
           </ul>
         </div>
         <div className="navbar-end flex gap-3">

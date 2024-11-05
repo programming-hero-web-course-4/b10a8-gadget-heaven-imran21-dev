@@ -18,7 +18,7 @@ const WishlistItem = ({wishlistItem}) => {
          <h1 className="text-xl font-semibold">{product_title}</h1>
          <p className="py-2 text-sColor/50"><span className="font-bold">Description:</span> {description}</p>
          <h2 className="font-bold">Price: ${price}</h2>
-         <button onClick={()=>addCartBtn(wishlistItem)} className="btn bg-pColor text-white font-normal rounded-full px-6 mt-5">Add to Cart</button>
+         <button onClick={()=>{addCartBtn(wishlistItem);removeWishlistBtn(wishlistItem)}} className="btn bg-pColor text-white font-normal rounded-full px-6 mt-5">Add to Cart</button>
         </div>
         <div>
          <SlClose onClick={()=>removeWishlistBtn(wishlistItem)} className="text-2xl text-[#ff0000] btn min-h-max h-max p-0 bg-pColor/0 hover:bg-sColor/0 border-none"></SlClose>

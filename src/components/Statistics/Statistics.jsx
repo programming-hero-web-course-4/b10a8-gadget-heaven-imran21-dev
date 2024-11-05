@@ -2,7 +2,7 @@
 
 const Statistics = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             Statistics
         </div>
     );
