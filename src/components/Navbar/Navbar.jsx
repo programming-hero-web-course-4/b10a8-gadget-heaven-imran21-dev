@@ -38,9 +38,9 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to='/'>
-          <a className="font-bold text-xl flex items-center">
+          <h1 className="font-bold text-xl flex items-center">
             <img src={logo} className='w-8' alt="" />
-            <span>Gadget Heaven</span></a>
+            <span>Gadget Heaven</span></h1>
           </Link>
         </div>
         <div className={pathname === '/' || pathname === '/Smartphones/' || pathname === '/Laptops/' || pathname === '/Smartwatches/' || pathname === '/Accessories/' || pathname === '/Monitors/' ? 'navbar-center  hidden lg:flex text-white' :'navbar-center hidden lg:flex'}>

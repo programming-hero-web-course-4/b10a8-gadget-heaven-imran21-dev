@@ -5,11 +5,14 @@ import { useEffect, useState } from "react";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 const ProductDetails = () => {
-    const [addCartBtn,addWishlistBtn] = useOutletContext();
+    useEffect(()=>{
+        document.title = 'Gadget details | Gadget Heaven'
+    },[])
+    const [addCartBtn,addWishlistBtn, , , , , , , ,wishlist] = useOutletContext();
   
     const data = useLoaderData();
     const {pId} = useParams();
-
+    
     const clickedGadget = data.find(gadget => gadget.product_id === pId)
     const {availability,description,price,product_image,product_title,rating,specification,product_id} = clickedGadget;
     const [r, setR] = useState(parseInt(rating));
@@ -25,6 +28,12 @@ const ProductDetails = () => {
       useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
+
+    const heartBtn = wishlist.find(item => item.product_id === product_id)
+      
+
+
+
     return (
         <div className="pb-32">
              <div className="text-center bg-pColor pt-7 pb-52 relative">
@@ -62,7 +71,7 @@ const ProductDetails = () => {
                     <div className="pt-8 flex items-center gap-5">
                         <button onClick={()=>addCartBtn(clickedGadget)} className="flex items-center bg-pColor rounded-full px-5 text-white font-semibold btn">Add To Cart <CiShoppingCart className="text-2xl"></CiShoppingCart></button>
 
-                        <button id={product_id} onClick={()=> addWishlistBtn(clickedGadget)} className="text-xl bg-white hover:border-pColor/20 hover:bg-pColor hover:text-white btn rounded-full h-12 w-12 min-h-max p-0 border border-pColor/20 "><CiHeart className=""></CiHeart></button>
+                        <button disabled={heartBtn && true} id={product_id} onClick={()=> addWishlistBtn(clickedGadget)} className="text-xl bg-white hover:border-pColor/20 hover:bg-pColor hover:text-white btn rounded-full h-12 w-12 min-h-max p-0 border border-pColor/20 "><CiHeart className=""></CiHeart></button>
                     </div>
                 </div>
              </div>

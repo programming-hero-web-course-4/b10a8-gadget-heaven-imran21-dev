@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom';
 import bannerImg from '../../assets/banner.jpg'
 import Gadgets from '../Gadgets/Gadgets';
+import { useEffect } from 'react';
 
 
 const Banner = () => {
+    useEffect(()=>{
+        document.title = 'Home | Gadget Heaven'
+    },[])
     return (
         <>
         

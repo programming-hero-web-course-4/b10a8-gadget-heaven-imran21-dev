@@ -721,7 +721,7 @@
     "product_id": "A006",
     "category": "Accessories",
     "brand": "Anker",
-    "price": 29,
+    "price": 95,
     "description": "Compact and lightweight portable charger for on-the-go power.",
     "specification": [
       "10,000mAh capacity",
@@ -772,7 +772,7 @@
     "product_id": "A009",
     "category": "Accessories",
     "brand": "Amazon",
-    "price": 49,
+    "price": 99,
     "description": "Smart speaker with Alexa for voice control of your smart home.",
     "specification": [
       "Voice control for music, news, and smart home",
@@ -841,7 +841,7 @@
     "product_id": "A015",
     "category": "Accessories",
     "brand": "Apple",
-    "price": 39,
+    "price": 89,
     "description": "Magnetic wireless charger designed for iPhone 12 and later models.",
     "specification": [
       "15W fast charging",

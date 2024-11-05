@@ -1,17 +1,26 @@
 import { SlEqualizer } from "react-icons/sl";
 import CartItem from "./CartItem/CartItem";
 import PropTypes from "prop-types";
-import { Link, useOutletContext } from "react-router-dom";
+import { Link, useNavigate, useOutletContext } from "react-router-dom";
 import verify from '../../assets/Group.png'
+import { useEffect } from "react";
+import { FaPlusMinus } from "react-icons/fa6";
 
 const Cart = ({cart}) => {
-   const [addCartBtn,addWishlistBtn,sortBtn,cost,purchaseBtn,pCost,pCostDeleteBtn] = useOutletContext();
-    
+  useEffect(()=>{
+    document.title = 'Dashboard - Cart | Gadget Heaven'
+},[])
+   const [, ,sortBtn,cost,purchaseBtn,pCost,pCostDeleteBtn] = useOutletContext();
+   const navigate = useNavigate();
+   const closeModal = ()=> {
+    navigate('/')
+   } 
+
     return (
         <div className="md:container mx-auto pt-8 pb-32">
          <div className="flex items-center">
                  <h1 className="flex-1 text-xl font-bold py-2">Cart</h1> 
-                 <h1 className="text-xl font-bold">Total cost: ${cost}</h1> 
+                 <h1 className="text-xl font-bold relative px-2">Total cost: ${cost} <span className="absolute -bottom-5 text-[10px] font-normal text-sColor/60 left-2 flex items-center">(Maximum limit : $20,000 <FaPlusMinus></FaPlusMinus>)</span></h1> 
                  <button onClick={sortBtn} className="flex items-center border border-pColor min-h-max h-max py-3 text-pColor font-normal  btn rounded-full mx-5">Sort by Price <SlEqualizer></SlEqualizer></button>  
                  <button disabled={cart.length < 1 && true} onClick={purchaseBtn} className="btn bg-pColor rounded-full min-h-max h-max py-3 border-pColor text-white font-normal px-5">Purchase</button>
          </div>
@@ -36,7 +45,7 @@ const Cart = ({cart}) => {
     <div className="modal-action">
       <form method="dialog">
         {/* if there is a button in form, it will close the modal */}
-        <Link to='/'><button onClick={pCostDeleteBtn} className="btn px-20 rounded-full bg-pColor/20 border-none">Close</button></Link>
+        <button onClick={()=>{pCostDeleteBtn(); closeModal()}} className="btn px-20 rounded-full bg-pColor/20 border-none">Close</button>
       </form>
     </div>
   </div>

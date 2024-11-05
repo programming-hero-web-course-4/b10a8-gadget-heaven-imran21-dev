@@ -1,10 +1,14 @@
 import { Link, useNavigate, useOutletContext } from "react-router-dom";
 import OrderItem from "./OrderItem/OrderItem";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
+import { useEffect } from "react";
 
 
 const Orders = () => {
-    const [addCartBtn,addWishlistBtn,sortBtn,cost,purchaseBtn,pCost,pCostDeleteBtn,defaultOrder,time] = useOutletContext();
+    useEffect(()=>{
+        document.title = 'Orders | Gadget Heaven'
+    },[])
+    const [, , , , , , ,defaultOrder,time] = useOutletContext();
     const navigate = useNavigate();
     const backBtn = ()=>{
         navigate(-1)

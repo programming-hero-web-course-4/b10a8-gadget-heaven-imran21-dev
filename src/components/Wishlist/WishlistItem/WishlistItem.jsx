@@ -2,12 +2,13 @@ import { useContext } from "react";
 import { SlClose } from "react-icons/sl";
 import { useOutletContext } from "react-router-dom";
 import { AssetContext } from "../../../App";
-
+import PropTypes from "prop-types";
 
 const WishlistItem = ({wishlistItem}) => {
     const {description,product_image,product_title,price} = wishlistItem;
-    const [addCartBtn,addWishlistBtn,sortBtn,cost] = useOutletContext();
-     const [cart,wishlist,cartWishToggleBtn,cartWish,removeCartbtn,removeWishlistBtn] = useContext(AssetContext);
+    const [addCartBtn] = useOutletContext();
+
+     const [, , , , ,removeWishlistBtn,removeWishlistBtnFOraddToCart] = useContext(AssetContext);
     
     return (
         <div className="bg-white p-6 mt-6 rounded-2xl flex gap-6">
@@ -18,7 +19,7 @@ const WishlistItem = ({wishlistItem}) => {
          <h1 className="text-xl font-semibold">{product_title}</h1>
          <p className="py-2 text-sColor/50"><span className="font-bold">Description:</span> {description}</p>
          <h2 className="font-bold">Price: ${price}</h2>
-         <button onClick={()=>{addCartBtn(wishlistItem);removeWishlistBtn(wishlistItem)}} className="btn bg-pColor text-white font-normal rounded-full px-6 mt-5">Add to Cart</button>
+         <button onClick={()=>{addCartBtn(wishlistItem);removeWishlistBtnFOraddToCart(wishlistItem)}} className="btn bg-pColor text-white font-normal rounded-full px-6 mt-5">Add to Cart</button>
         </div>
         <div>
          <SlClose onClick={()=>removeWishlistBtn(wishlistItem)} className="text-2xl text-[#ff0000] btn min-h-max h-max p-0 bg-pColor/0 hover:bg-sColor/0 border-none"></SlClose>
@@ -26,5 +27,7 @@ const WishlistItem = ({wishlistItem}) => {
      </div>
     );
 };
-
+WishlistItem.propTypes = {
+    wishlistItem: PropTypes.object
+}
 export default WishlistItem;

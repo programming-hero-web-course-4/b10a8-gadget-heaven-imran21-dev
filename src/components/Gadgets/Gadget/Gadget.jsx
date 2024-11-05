@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
+
 import {  Link } from "react-router-dom";
+
 
 const Gadget = ({gadget}) => {
     const {price,product_title,product_image,product_id} = gadget;
-    
+   
    
     return (
         <div className="bg-white p-5 rounded-xl">
