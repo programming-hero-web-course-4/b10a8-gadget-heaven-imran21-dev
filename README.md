@@ -1,7 +1,7 @@
 # Gadget Heaven 
 
 - Live Link : [https://gadgetheaven21.surge.sh/](https://gadgetheaven21.surge.sh/)
-- Requirement Document Link : [Requirement Document](../assignment-8/src/assets/Batch-10_Assignment-08.pdf)
+- Requirement Document Link : [Requirement Document](https://orange-edin-84.tiiny.site/)
 - List of React Fundamental concepts in this project : 
     - JSX
     - Components
