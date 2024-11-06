@@ -17,20 +17,20 @@ const Orders = () => {
     return (
         <div className="min-h-screen"> 
             <div className="bg-pColor">
-                <div className="pt-5 flex md:container mx-auto items-center">
+                <div className="pt-7 flex md:container mx-auto items-center">
                
 
                <div className=" w-full">
-               <div className="pt-2 md:container mx-auto flex justify-center items-center relative">
-                <button onClick={backBtn} className="left-0 btn bg-pColor/0 border-none px-0 py-0 h-max rounded-full hover:bg-pColor/10 min-h-0 text-white absolute text-3xl"><IoArrowBackCircleOutline></IoArrowBackCircleOutline></button>
+               <div className="md:container mx-auto flex justify-center items-center relative">
+                <button onClick={backBtn} className="left-0 btn bg-pColor/0 border-none px-0 py-0 h-max rounded-full hover:bg-pColor/10 min-h-0 text-white absolute text-3xl hidden md:block"><IoArrowBackCircleOutline></IoArrowBackCircleOutline></button>
 
-                 <h1 className="text-3xl text-white font-bold">Orders</h1>
+                 <h1 className="text-xl md:text-3xl text-white font-bold">Orders</h1>
                 </div>
-               <p className="pt-4 text-center text-white/90 text-sm">Explore the latest gadgets that will take your experience to the next level. <br />
+               <p className="text-xs text-center w-3/4 md:w-2/5 mx-auto md:text-sm pt-4 text-white/90">Explore the latest gadgets that will take your experience to the next level.
                From smart devices to the coolest accessories, we have it all!</p>
                </div>
                 </div>
-                <div className="grid grid-cols-7 justify-items-center md:container mx-auto text-white font-bold pt-6 pb-3 ">
+                <div className="grid grid-cols-7 justify-items-center md:container mx-auto text-white font-medium md:font-bold pt-6 pb-3 md:text-base text-[6px] md:px-0 px-2">
                 <h1 className="col-span-2">Items</h1>
                 <h1>Category</h1>
                 <h1>Product ID</h1>
@@ -39,7 +39,7 @@ const Orders = () => {
                 <h1>Delivery Status</h1>
                 </div>
             </div>
-            <div className="md:container mx-auto">
+            <div className="md:container mx-auto px-2 md:px-0">
             {
             defaultOrder.length < 1 ?
             <div className="text-center pt-56 flex flex-col items-center">

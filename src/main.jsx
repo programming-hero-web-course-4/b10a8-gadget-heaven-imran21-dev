@@ -6,6 +6,7 @@ import '@smastrom/react-rating/style.css'
 import {
   createBrowserRouter,
   RouterProvider,
+  
 
  
   
@@ -16,6 +17,7 @@ import Statistics from './components/Statistics/Statistics.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx';
 import Orders from './components/Orders/Orders.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -36,11 +38,15 @@ const router = createBrowserRouter([
           path: '/:id',
           element: <Banner></Banner>,
           loader: () => fetch('/gadgets.json'),
+  
+
           
         },
         {
           path: '/Statistics',
-          element: <Statistics></Statistics>
+          element: <Statistics></Statistics>,
+          loader: ()=> fetch('/gadgets.json')
+          
         },
         {
           path: '/Dashboard',

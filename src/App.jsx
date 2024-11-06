@@ -36,6 +36,7 @@ const addCartBtn = (gadget) => {
       fontWeight: "500",
       fontFamily: 'Sora',
       borderRadius: '50px',
+      
     },
     position: "top-center",
 autoClose: 2000,

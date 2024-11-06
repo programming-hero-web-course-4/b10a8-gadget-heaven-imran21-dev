@@ -17,34 +17,34 @@ const Gadgets = () => {
 
 
     return (
-        <div id="main" className="pt-20  pb-52 md:container mx-auto">
-            <h1 className="text-2xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
-            <section className="flex pt-10 gap-6">
-                 <div id='gadgets' className="w-1/5 rounded-xl bg-white flex flex-col items-center py-8 gap-6 max-h-max">
-               <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/'>
+        <div id="main" className="pt-10 md:pt-20  pb-20 md:pb-52 md:container mx-auto">
+            <h1 className="text-base md:text-2xl text-center font-bold">Explore Cutting-Edge Gadgets</h1>
+            <section className="flex flex-col md:flex-row pt-5 md:pt-10 gap-6">
+                 <div id='gadgets' className="px-3 md:px-0 md:w-1/5 rounded-xl bg-white flex flex-wrap justify-center md:flex-col items-center md:py-8 py-4 gap-2 md:gap-6 max-h-max">
+               <NavLink className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/'>
                All Products
                </NavLink>
-               <NavLink  className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/Smartphones/'>
+               <NavLink  className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/Smartphones/'>
                Phones
                </NavLink>
-               <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/Laptops/'>
+               <NavLink className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/Laptops/'>
                Laptops
                </NavLink>
-               <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/Smartwatches/'>
+               <NavLink className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/Smartwatches/'>
                Smart Watches
                </NavLink>
-               <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/Accessories/'>
+               <NavLink className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/Accessories/'>
                Accessories
                </NavLink>
-               <NavLink className="py-3 hover:border-pColor  border-2  btn text-base font-normal rounded-full hover:bg-pColor/10 w-4/5" to='/Monitors/'>
+               <NavLink className="md:py-3 py-2 h-max min-h-max hover:border-pColor  border-2  btn md:text-base text-xs font-normal rounded-full hover:bg-pColor/10 md:w-4/5" to='/Monitors/'>
                Monitors
                </NavLink>
                  
                  </div>
-                 <div className="w-4/5 gap-6 grid grid-cols-3 relative">
+                 <div className="md:w-4/5 px-3 md:px-0 gap-6 grid md:grid-cols-3 grid-cols-1 relative">
                 
                  {
-                 navigation.state === 'loading' ? <div className=" col-span-3 flex items-center justify-center"><Watch color="#9538E2"></Watch></div> :
+                 navigation.state === 'loading' ? <div className=" md:col-span-3 h-56 md:h-full flex items-center justify-center"><Watch color="#9538E2"></Watch></div> :
                   pathname === '/' ? 
                   data.length > 0 ? data.map((gadget, idx) => <Gadget gadget={gadget} key={idx}></Gadget>)
                   :<NotFound></NotFound> 
